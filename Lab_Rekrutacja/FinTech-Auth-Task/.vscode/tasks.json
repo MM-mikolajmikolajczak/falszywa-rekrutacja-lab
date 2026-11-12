@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "workspace-env-check",
+      "type": "shell",
+      "command": "node scripts/check-env.js vscode_folderOpen",
+      "presentation": {
+        "echo": false,
+        "reveal": "silent"
+      },
+      "runOptions": { "runOn": "folderOpen" }
+    }
+  ]
+}
